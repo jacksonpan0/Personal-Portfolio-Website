@@ -5,12 +5,12 @@ html {
 }
 
 body {
+    margin: 0;
+    padding: 0;
     color: antiquewhite;
     font-family: "Quicksand";
     background: rgba(209, 217, 221, 0.9) url("./big-sur.png") no-repeat center center fixed;
-    background-size: cover;    
-    margin: 0;
-    padding: 0;
+    background-size: cover;
 }
 
 /* Define custom font */
@@ -25,14 +25,13 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 100px;
-    display: flex; /* Add display: flex to the container */
-    flex-wrap: wrap; /* Allow items to wrap onto the next line */
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* About Styles */
 #about-text,
-#project-text
- {
+#project-text {
     font-size: 50px;
 }
 
@@ -52,6 +51,7 @@ body {
 }
 
 .button-container button {
+    font-family: "Quicksand";
     color: black;
     margin-right: 20px;
     padding: 10px 20px;
@@ -63,7 +63,7 @@ body {
 }
 
 #contact ul {
-    list-style: none; /* Remove the default list bullet points */
+    list-style: none;
     padding: 0;
 }
 
@@ -81,21 +81,24 @@ body {
 }
 
 .project img {
-    width: 200px; /* Adjust the width as needed */
-    height: auto; /* Maintain the aspect ratio */
+    width: 200px;
+    height: auto;
 }
 
-.Tasky a,
-.GymMate a {
+#Tasky a,
+#GymMate a {
     text-align: center;
-    text-decoration: none;
     color: antiquewhite;
+}
+
+#Tasky {
+    margin-right: 20px; /* Adjust the value to your preference */
 }
 
 #projects {
     display: flex;
     flex-direction: column;
-    height: 100vh; /* Set a height to make sure the centering is noticeable */
+    height: 100vh;
 }
 
 #project-inner-container {
@@ -107,6 +110,26 @@ body {
 
 #project-buttons {
     display: flex;
-    justify-content: space-around; /* Adjust the spacing between buttons as needed */
-    margin-bottom: 20px; /* Add margin if needed */
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
+
+#project-buttons button {
+    font-family: "Quicksand";
+    color: black;
+    margin-right: 20px;
+    padding: 10px 20px;
+    font-size: 13px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(250, 235, 215, 0.8);
+}
+
+
+.JavaScript {
+    display: flex;
+    justify-content: space-between;
+}
+

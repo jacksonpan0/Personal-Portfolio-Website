@@ -11,12 +11,10 @@ function showProjects(language) {
 
 function showProjectsByLanguage(language) {
     const allProjects = document.getElementById('all-projects').children;
-
     for (const project of allProjects) {
         const projectLanguages = project.getAttribute('data-languages');
-
         if (!language || projectLanguages.includes(language)) {
-            project.style.display = 'inline';
+            project.style.display = 'flex';
         } else {
             project.style.display = 'none';
         }

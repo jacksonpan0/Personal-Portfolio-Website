@@ -7,14 +7,17 @@
     <script src="script.js" defer></script>
     <title>Jackson's Portfolio</title>
 </head>
-
+<!-- Body -->
 <body>
+    <!-- Top container storing information about me and contact options -->
     <div class="top-container" id="about">
+        <!-- About me text -->
         <div id="about-text">Jackson Pan</div>
         <div id="about-inner-text">
             I'm a sophomore Computer Science student at University of Rochester with a passion for web development, 
             artificial intelligence, and software engineering.
         </div>
+        <!-- Contact container containing svgs -->
         <div id="contact">
             <div class="button-container">
                 <button id="contact-button">Contact Me</button>
@@ -32,10 +35,12 @@
             </ul>
         </div>
     </div>
-
+<!-- Bottom container storing information about projects -->
     <div class="bottom-container" id="projects">
+        <!-- Project text -->
         <div id="project-text">Projects</div>
         <div id="project-inner-text">Here are some of the projects I've worked on during my academic journey and personal explorations:</div>
+        <!-- Inner project container containing buttons and project imgs, and descriptions -->
         <div id ="project-inner-container">
             <div id ="project-buttons">
                 <button onclick="showAllProjects()">All</button>
@@ -44,15 +49,19 @@
                 <button onclick="showProjects('python')">C</button>
             </div>
             <div class="project" id="all-projects">
-                <div class="Tasky" data-languages="JavaScript">
-                    <a href="TaskyAbout.html"><h3>Task Manager</h3></a>
-                    <img src="TaskyPreview.png" alt="Task Manager Preview">
-                    <a href="https://jacobmcgreen.github.io/DandyHacks23/"><h3>GymMate+</h3></a>
-                    <img src="GymMatePreview.png" alt="GymMate+ Preview">
-                </div>
+                <div class="JavaScript" data-languages="JavaScript">
+                    <div id ="Tasky">
+                        <a href="https://jacksonpan0.github.io/Tasky/"><h3>Task Manager</h3></a>
+                        <img src="TaskyPreview.png" alt="Task Manager Preview">
+                    </div>
+                    <div id ="GymMate">
+                        <a href="https://jacobmcgreen.github.io/DandyHacks23/"><h3>GymMate+</h3></a>
+                        <img src="GymMatePreview.png" alt="GymMate+ Preview">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </body>
 </html>
