@@ -9,7 +9,7 @@ body {
     padding: 0;
     color: antiquewhite;
     font-family: "Quicksand";
-    background: rgba(209, 217, 221, 0.9) url("./big-sur.png") no-repeat center center fixed;
+    background: rgba(209, 217, 221, 0.9) url("./images/big-sur.png") no-repeat center center fixed;
     background-size: cover;
 }
 
