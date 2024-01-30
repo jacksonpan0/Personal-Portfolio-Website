@@ -86,12 +86,17 @@ body {
 }
 
 #Tasky a,
-#GymMate a {
+#GymMate a, 
+#TFT-Tool a,
+#RDM a{
     text-align: center;
     color: antiquewhite;
 }
 
-#Tasky {
+#Tasky,
+#GymMate,
+#TFT-Tool,
+#RDM {
     margin-right: 20px; /* Adjust the value to your preference */
 }
 
@@ -128,7 +133,8 @@ body {
 }
 
 
-.JavaScript {
+.JavaScript, 
+.C {
     display: flex;
     justify-content: space-between;
 }
