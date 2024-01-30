@@ -5,6 +5,12 @@ with a passion for web development, artificial intelligence, and software engine
 document.getElementById("about-text").textContent = aboutText;
 document.getElementById("about-inner-text").textContent = aboutInnerText;
 
+const projectText = "Projects";
+const projectInnerText = `Here are some of the projects I've worked on during my academic journey and personal explorations:`;
+
+document.getElementById("project-text").textContent = projectText;
+document.getElementById("project-inner-text").textContent = projectInnerText;
+
 document.getElementById("contact-button").addEventListener("click", function() {
     window.location.href = "mailto:jpan23@u.rochester.edu";
 });
